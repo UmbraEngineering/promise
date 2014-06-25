@@ -1,10 +1,23 @@
 
 # Promise
 
-A environment agnostic (browser/node.js/etc) ES6 Promise polyfill.
+An ES6 Promise polyfill.
 
-# Install (node.js)
+# Install
 
 ```bash
 $ npm install [--save] promise-es6
 ```
+
+# Usage
+
+```javascript
+// Load for use in this one place ...
+var Promise = require('promise-es6').Promise;
+
+// ... or make a global polyfill
+require('promise-es6').install();
+```
+
+
+
