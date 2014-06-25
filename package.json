@@ -1,0 +1,23 @@
+{
+  "name": "promise-es6",
+  "version": "0.0.0",
+  "description": "A ES6 Promise polyfill",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/UmbraEngineering/promise"
+  },
+  "keywords": [
+    "promise",
+    "es6"
+  ],
+  "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UmbraEngineering/promise/issues"
+  },
+  "homepage": "https://github.com/UmbraEngineering/promise"
+}
