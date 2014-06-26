@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/UmbraEngineering/promise/issues"
   },
-  "homepage": "https://github.com/UmbraEngineering/promise"
+  "homepage": "https://github.com/UmbraEngineering/promise",
+  "dependencies": {
+    "weakmap": "0.0.6"
+  }
 }
