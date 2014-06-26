@@ -4,7 +4,8 @@
   "description": "A ES6 Promise polyfill",
   "main": "lib/index.js",
   "scripts": {
-    "test": "promises-aplus-tests tests/adapter"
+    "test": "promises-aplus-tests tests/adapter",
+    "build": "browserify ./lib/index.js > promises.browser.js && echo '0a\n\n//\n// Promises/A+ Polyfill (https://www.github.com/UmbraEngineering/promise)\n//\n// MIT Licensed\n//\n\n.\nw' | ed promises.browser.js"
   },
   "repository": {
     "type": "git",
