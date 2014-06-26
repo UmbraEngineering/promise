@@ -4,7 +4,7 @@
   "description": "A ES6 Promise polyfill",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "promises-aplus-tests tests/adapter"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "url": "https://github.com/UmbraEngineering/promise/issues"
   },
   "homepage": "https://github.com/UmbraEngineering/promise",
-  "dependencies": {
-    "weakmap": "0.0.6"
+  "devDependencies": {
+    "promises-aplus-tests": "*"
   }
 }
