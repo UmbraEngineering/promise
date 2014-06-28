@@ -3,6 +3,8 @@
 
 An ES6 Promise polyfill.
 
+[![Build Status](https://travis-ci.org/UmbraEngineering/promise.svg?branch=master)](https://travis-ci.org/UmbraEngineering/promise)
+
 # Install
 
 ```bash
