@@ -17,7 +17,7 @@ $ npm install [--save] promise-es6
 // Load for use in this one place ...
 var Promise = require('promise-es6').Promise;
 
-// ... or make a global polyfill
+// ... or make a global polyfill (not really recomended good practice in node, but do as you will)
 require('promise-es6').install();
 ```
 
